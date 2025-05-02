@@ -1,5 +1,9 @@
 # MDAP-EX_01-Portfolio
-## Date:
+## Date: 28/04/25
+
+# Name: THIRISHA A
+
+# Reg no: 212223040228
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -47,11 +51,169 @@ Deploy the Portfolio.
 ### STEP 14
 Upload to GitHub Pages for free hosting.
 
-## PROGRAM
+## PROGRAM:
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My RESUME</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: hsl(0, 4%, 46%);
+            color: #a19696;
+        }
+        header {
+            background: #d0d3d6;
+            color: rgb(79, 131, 100);
+            padding: 20px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px white
+            text-align: left;
+        }
+        .about img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+        li {
+            margin: 5px 0;
+        }
+        .contact {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #cfd6dc;
+            color: rgb(222, 201, 204);
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        MY RESUME
+        <nav>
+            <nav>
+                <ul>
+                <li><a href="#aboutme">About me</a> </li>|
+                <li><a href="#skill">Skills</a></li> |
+                <li><a href="#experience">Experience</a></li>|
+                <li><a href="#education">Education</a></li>|
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+              </nav>
+    </header>
+    
+<section id="aboutme">
+    <h2>About Me</h2>
+    <img src="C:\Users\thiri\Documents\thirisha pic.jpg" alt="My Photo">
+    <p>NAME: THIRISHA A
+       Email id: thirisha150@gmail.com
+       CONTACT NO: 9025383772
+       I am a Software Developer
+    </p>
+</section>
+            
+
+        
+<section id="skill">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS</li>
+        <li>C,JAVA,C++,PYTHON</li>
+     
+    </ul>
+</section>
+<section id="experience">
+    <h2>Experience</h2>
+    <p><strong>I completed my Internship in Arjun tech (30 days)</p>
+</section>
+        
+        
+            
+       
+<section id="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor's in Computer Science</strong> - Saveetha Engineering College(2023-2027)</p>
+</section>
+       
+            
+      
+        
+       <section id="contactme">
+        <h2>Contact Me</h2>
+        <p>Email: thirisha150@example.com</p>
+        <p>LinkedIn: thirisha.com/in/myprofile</p>
+       </section>
+          
+       
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 My Resume | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+
+```
 
 ## OUTPUT
 
+![Screenshot (78)](https://github.com/user-attachments/assets/c52cf1f6-187c-484f-ab49-c7315b2be913)
+
+
+![image](https://github.com/user-attachments/assets/dd3f17a6-5ebd-4191-8f46-3397bdc336df)
+
+![image](https://github.com/user-attachments/assets/9e7756e5-53e5-4786-bd6b-8705aff3b1c5)
+
+![image](https://github.com/user-attachments/assets/0666fb86-9fa5-4a60-9f11-6a5991d7baa9)
+
+
+![image](https://github.com/user-attachments/assets/3f5752f1-b61f-4443-9378-77f816f6c4cd)
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
